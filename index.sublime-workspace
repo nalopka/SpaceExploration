@@ -1,0 +1,644 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroundc",
+				"background-color"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"col-sm-2",
+				"col-sm-offset-2 \tBootstrap 3 Class"
+			],
+			[
+				"float",
+				"float-right \tBootstrap 4 Class"
+			],
+			[
+				"sp",
+				"col-sm-pull-10 \tBootstrap 3 Class"
+			],
+			[
+				"TE",
+				"text-center \tBootstrap 3 Class"
+			],
+			[
+				"brtn",
+				"btn-warning \tBootstrap 3 Class"
+			],
+			[
+				"conta",
+				"container-fluid \tBootstrap 3 Class"
+			],
+			[
+				"container",
+				"container-fluid \tBootstrap 3 Class"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"list",
+				"list-unstyled \tBootstrap 3 Class"
+			],
+			[
+				"circ",
+				"rounded-circle \tBootstrap 4 Class"
+			],
+			[
+				"pull",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"small",
+				"small \tBootstrap 3 Class"
+			],
+			[
+				"roun",
+				"rounded-circle \tBootstrap 4 Class"
+			],
+			[
+				"glycir",
+				"glyphicon-circle-arrow-right \tBootstrap 3 Class"
+			],
+			[
+				"gly",
+				"glyphicon \tBootstrap 3 Class"
+			],
+			[
+				"por",
+				"PORTFOLIO"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"Con",
+				"Contact"
+			],
+			[
+				"conca",
+				"Contact"
+			],
+			[
+				"navbarf",
+				"navbar-fixed-top \tBootstrap 3 Class"
+			],
+			[
+				"nab",
+				"navbar \tBootstrap 3 Class"
+			],
+			[
+				"form-g",
+				"form-group \tBootstrap 3 Class"
+			],
+			[
+				"pandel",
+				"panel-default \tBootstrap 3 Class"
+			],
+			[
+				"color",
+				"color_orange"
+			],
+			[
+				"carouselc",
+				"carousel-control \tBootstrap 3 Class"
+			],
+			[
+				"carousel-in",
+				"carousel-indicators \tBootstrap 3 Class"
+			],
+			[
+				"glyp",
+				"glyphicon"
+			],
+			[
+				"col-sm",
+				"col-sm-4"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"mrg",
+				"margin"
+			],
+			[
+				"border-left-",
+				"border-top-left-radius"
+			],
+			[
+				"backo",
+				"background-origin"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"background",
+				"background-origin"
+			],
+			[
+				"backgoru",
+				"background"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"tra",
+				"transition-property"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"backgroc",
+				"background-color"
+			],
+			[
+				"ds",
+				"display"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border-l",
+				"border-left-style"
+			],
+			[
+				"backgrc",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"dy",
+				"display"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"backgr",
+				"background-attachment"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"border-rad",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"inlie",
+				"inline-block"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"cl",
+				"cols\tAttr"
+			],
+			[
+				"orde",
+				"order-list-form-item"
+			],
+			[
+				"or",
+				"order-list-form-item"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 370.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: car",
+				"Snippet: bs3-carousel"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-clearfix"
+			],
+			[
+				"Snippet: navbar-c",
+				"Snippet: bs3-navbar-basic"
+			],
+			[
+				"Snippet:navbar",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"Snippet: caro",
+				"Snippet: bs3-carousel"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Gitproj/astana1/README.md",
+		"/C/Users/ChistyakovEY/RSAKEY.pub",
+		"/C/Gitproj/astana1/index.html",
+		"/C/Gitproj/Astana/config.codekit",
+		"/C/Gitproj/hello/lib/hello.html",
+		"/C/Gitproj/hello/lib/style.css",
+		"/C/Gitproj/hello/index.html",
+		"/C/Gitproj/hello/README",
+		"/C/Gitproj/hello/hello.html",
+		"/C/Gitproj/hello/.git/refs/heads/style",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/bodyItems/price/price.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/headerItems/headerItems.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/footerItems/footer/footer.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/main.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/leaflet/leaflet.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/bodyItems/services/services.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/bodyItems/benefits/benefits.scss",
+		"/C/Users/ChistyakovEY/Dropbox/boostraptest/js.js",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/java/smoothscroll/smoothscroll.js",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/index.html",
+		"/C/Program Files/Talon/Database/statmain.gdb",
+		"/C/Users/ChistyakovEY/Desktop/test1.html",
+		"/C/Users/ChistyakovEY/Dropbox/boostraptest/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/css/main.css",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/index (Конфликтующая копия с компьютера ChistyakovEY 2017-04-06).html",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/benefits/benefits.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/java/leaflet/leaflet.js",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/java/leaflet.js",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/scss/benefits.scss",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/css/mapbox/mapbox.css",
+		"/C/Users/ChistyakovEY/Dropbox/Astana proj/java/mapbox/mapbox.js",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/jquery/scrolltop.js",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/css/slide-third.css",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/css/slide-second.css",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/css/slide-first.css",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/style.css",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/js/lightbox.js",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/css/lightbox.css",
+		"/C/Users/ChistyakovEY/Dropbox/lastone/test.html",
+		"/C/Users/ChistyakovEY/Desktop/test.html",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/style.scss",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/small.js",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/test1.html",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/big.js",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/js.js",
+		"/C/Users/ChistyakovEY/Desktop/BS temp/index.html",
+		"/C/Users/ChistyakovEY/Desktop/BS temp/style.scss",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/jade.jade",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/css_bt/bootstrap.css",
+		"/C/Users/ChistyakovEY/Desktop/newfolder/style.css",
+		"/C/Users/ChistyakovEY/Dropbox/site1/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/site1/style.css",
+		"/C/Users/ChistyakovEY/Desktop/BS temp/style.css",
+		"/C/Users/ChistyakovEY/Desktop/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/C/Users/ChistyakovEY/Desktop/BS temp/js.js",
+		"/C/Users/ChistyakovEY/Desktop/bootstrap-3.3.7-dist/css/bootstrap.min.css",
+		"/C/Users/ChistyakovEY/Desktop/bootstrap-3.3.7-dist/css/bootstrap.min.css.map",
+		"/C/Users/ChistyakovEY/Dropbox/site1/js.js",
+		"/C/Users/ChistyakovEY/Desktop/site1/index.html",
+		"/C/Users/ChistyakovEY/Desktop/temp.html",
+		"/C/Users/ChistyakovEY/Desktop/site1/style.css",
+		"/C/Users/ChistyakovEY/Desktop/site/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/Mebel/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/Mebel/style.css",
+		"/C/Users/ChistyakovEY/Desktop/site/style.css",
+		"/C/Users/ChistyakovEY/Downloads/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/C/xampp/htdocs/blog1/index.html",
+		"/C/xampp/htdocs/blog1/style.css",
+		"/C/Users/ChistyakovEY/Desktop/123.html",
+		"/C/Users/ChistyakovEY/Dropbox/Mebel/Jscripts.js",
+		"/C/Users/ChistyakovEY/Downloads/keksby-5-part (1)/keksby-5-part/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/OW/style.css",
+		"/C/Users/ChistyakovEY/Dropbox/OW/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/site/index.html",
+		"/C/Users/ChistyakovEY/Dropbox/OW/search.css",
+		"/C/Users/ChistyakovEY/Dropbox/OW/buttons.css",
+		"/C/Users/ChistyakovEY/Desktop/OW/search.css",
+		"/C/Users/ChistyakovEY/Desktop/OW/style.css",
+		"/C/Users/ChistyakovEY/Desktop/OW/index.html",
+		"/C/Users/ChistyakovEY/Desktop/keksby-5-part/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".services-container",
+			".row",
+			"row",
+			"badge",
+			".row",
+			"row",
+			"active",
+			"serv",
+			"strong",
+			";\n",
+			"150px",
+			"temp",
+			";\n",
+			"p",
+			"vertica",
+			";\n",
+			"background-size",
+			"size",
+			"img",
+			".font",
+			"font",
+			"page-header",
+			"h1",
+			"header",
+			"%;\n",
+			"25px",
+			"bold",
+			":;",
+			"auto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".services-header"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

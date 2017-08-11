@@ -1,0 +1,80 @@
+.overview {
+	font-family: RobotoLight;
+	height: 100vh;
+	color: white;
+	display: flex;
+	width: 60%;
+	margin: auto;
+	flex-direction: column;
+	text-align: center;
+	
+	.complain {
+		justify-content: space-around;
+		display: flex;
+		height: 60%;
+		align-items: center;
+		flex-direction: column;
+		.complain-title {
+			position: relative;
+			font-family: GothamBook;
+			color: #bf17a0;
+			font-size: 12px;
+			line-height: 24px;
+			padding-top: 50px;
+			&:before {
+				position: absolute;
+				content: "";
+				padding-left: 25px;
+				left: 40%;
+				bottom: 0;
+				border-bottom: 2px solid #bf17a0;
+			}
+		}
+		h2 {
+			position: relative;
+			font-family: GothamLight;
+			font-size: 48px;
+			line-height: 56px;
+			color: black;
+			
+		}
+		.complain-main {
+			color: #6a6c74;
+			font-size: 14px;
+			line-height: 24px;
+			width: 350px;
+
+		}
+	}
+	.specs {
+		font-family: GothamBook;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 40%;
+		color: #646262;
+		font-size: 12px;
+		line-height: 38px;
+		.specs-items1,
+		.specs-items2  {
+			position: relative;
+			padding-top: 20px;
+			height: 100px;
+			width: 50%;
+			background-image: url("../img/overview/specs-left.png");
+			background-repeat: no-repeat;
+			background-size: 50%;
+			background-position: 80% 50%;
+			p {
+				position: absolute;
+				top: 22px;
+				left: 20%;
+				
+			}
+		}
+		.specs-items2 {
+			background-image: url("../img/overview/specs-right.png");
+		
+		}
+	}
+}

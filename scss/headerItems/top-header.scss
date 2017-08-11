@@ -1,0 +1,38 @@
+// $light-green: #22ddbc;
+.top-header {
+			font-family: GothamBook;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 85%;
+			height: 80px;
+			margin: auto;
+			.logo { 
+				font-size: 19px;
+				font-family: GothamBold;
+				span {
+					color:$light-green;
+					border: 2px solid white;
+					padding: 5px;
+				}
+			}
+			nav {
+				font-size: 14px;
+				display: flex;
+				.menu-header {
+					li {
+						display: inline-block;
+						margin-right: 20px;
+						padding: 8px 0;
+						a {
+							color: #b8bbc4;
+							text-decoration: none;
+							&:hover {
+								color: white;
+							}
+						}
+					}
+				}
+				@import "dropbtn"; /* menu drop list */
+			}	
+		}

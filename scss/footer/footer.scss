@@ -1,0 +1,85 @@
+.footer {
+	background-color: #f1f2f6;
+	height: 50vh;
+	display: flex;
+	// justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: space-between; */
+	.footer-list {
+		font-family: GothamLight;
+		height: 70%;
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		justify-content: space-between;
+		padding-top: 30px;
+		ul {
+			list-style: none;
+			li {
+				width: 200px;
+				line-height: 32px;
+				font-size: 13px;
+			}
+		}
+		h4 {
+			position: relative;
+			margin-bottom: 30px;
+			font-size: 16px;
+			font-family: GothamBold;
+		}
+	}
+	.footer-copyright {
+		font-family: GothamBook;
+		font-size: 13px;
+		border-top: 2px solid #e6e7ec;
+		height: 30%;
+		width: 80%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;	
+		color: #55565a;
+		.logo { 
+
+				span {
+					font-size: 19px;
+					font-family: GothamBold;
+					color: #bf17a0;
+					border: 2px solid #8c8d93;
+					padding: 5px;
+				}
+		}
+		.terms {
+			justify-content: space-between;
+			display: flex;
+			align-items: center;
+			width: 35%;
+			position: relative;
+			#to-top {
+				padding: 23px;
+				position: relative;
+				border-radius: 50%;
+				background-color: #fff;
+				&:after {
+					content: "";
+					border-top: 1px solid #a1a3a9;
+					border-left: 1px solid #a1a3a9;
+					position: absolute;
+					padding: 6px;
+					left: 16px;
+					top: 20px;
+					transform: rotate(45deg);
+				}
+			}
+		}
+	}
+	.pink {
+		&:before {
+			position: absolute;
+			content: "";
+			border-bottom: 3px solid #bf17a0;
+			padding: 5px;
+			padding: 10px;
+		}
+	}
+}
