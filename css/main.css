@@ -1,35 +1,58 @@
 @charset "UTF-8";
-div, p, body, button, h2, h3, img, hr, li, ul, span, section {
+div, p, body, button, h1, h2, h3, h4, img, hr, li, ul, span, section {
   margin: 0;
   padding: 0; }
 
 body {
-  min-width: 1300px; }
+  min-width: 1300px;
+  font-family: GothamBook, sans-serif;
+  line-height: 1.4; }
 
 p, h1, h2, h3, span {
   cursor: default; }
 
 @font-face {
-  font-family: GothamBold;
-  src: url("../fonts/Gotham/GothamHTF-Bold.otf"); }
+  font-family: GothamBook;
+  src: url("../fonts/Gotham/GothamHTF-Bold.otf");
+  font-weight: 700; }
+
 @font-face {
   font-family: GothamBook;
-  src: url("../fonts/Gotham/GothamHTF-Book.otf"); }
+  src: url("../fonts/Gotham/GothamHTF-Book.otf");
+  font-weight: 400; }
+
 @font-face {
-  font-family: GothamBlack;
-  src: url("../fonts/Gotham/GothamHTF-Black.otf"); }
+  font-family: GothamBook;
+  src: url("../fonts/Gotham/GothamHTF-Black.otf");
+  font-weight: 900; }
+
 @font-face {
-  font-family: GothamMedium;
-  src: url("../fonts/Gotham/GothamHTF-Medium.otf"); }
+  font-family: GothamBook;
+  src: url("../fonts/Gotham/GothamHTF-Medium.otf");
+  font-weight: 500; }
+
 @font-face {
-  font-family: GothamThin;
-  src: url("../fonts/Gotham/GothamHTF-Thin.otf"); }
+  font-family: GothamBook;
+  src: url("../fonts/Gotham/GothamHTF-Thin.otf");
+  font-weight: 100; }
+
 @font-face {
-  font-family: GothamLight;
-  src: url("../fonts/Gotham/GothamHTF-Light.otf"); }
+  font-family: GothamBook;
+  src: url("../fonts/Gotham/GothamHTF-Light.otf");
+  font-weight: 300; }
+
 @font-face {
   font-family: RobotoLight;
-  src: url("../fonts/Roboto/Roboto-Light.ttf"); }
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+  font-weight: 300; }
+
+.pink:before {
+  position: absolute;
+  content: "";
+  border-bottom: 3px solid #bf17a0;
+  padding: 5px;
+  padding: 10px; }
+
 div, p, body, button, h1, h2, img, hr, li, ul, span {
   margin: 0;
   padding: 0; }
@@ -44,22 +67,33 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
   height: 800px;
   /* Вся верхушка с навигацией тут */ }
   .main-header .top-header {
-    font-family: GothamBook;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 85%;
     height: 80px;
     margin: auto; }
     .main-header .top-header .logo {
       font-size: 19px;
-      font-family: GothamBold; }
+      font-weight: 700; }
       .main-header .top-header .logo span {
         color: #22ddbc;
         border: 2px solid white;
         padding: 5px; }
     .main-header .top-header nav {
       font-size: 14px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
       /* menu drop list */ }
       .main-header .top-header nav .menu-header li {
@@ -72,7 +106,6 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
           .main-header .top-header nav .menu-header li a:hover {
             color: white; }
       .main-header .top-header nav .dropbtn {
-        font-family: "GothamBook";
         background-color: transparent;
         color: #b8bbc4;
         border-radius: 10px;
@@ -90,6 +123,8 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
           border-bottom: 1px solid #b8bbc4;
           border-right: 1px solid #b8bbc4;
           padding: 3px;
+          -webkit-transform: translate(5px, 4px) rotate(45deg);
+          -ms-transform: translate(5px, 4px) rotate(45deg);
           transform: translate(5px, 4px) rotate(45deg); }
       .main-header .top-header nav .dropdown-content {
         display: none;
@@ -107,24 +142,36 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
       .main-header .top-header nav .show {
         display: block; }
   .main-header .middle-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column; }
     .main-header .middle-header h1 {
       margin-top: 225px;
-      font-family: GothamBlack;
+      font-weight: 900;
       font-size: 80px;
       color: #22ddbc; }
     .main-header .middle-header p {
       margin-top: 35px;
       line-height: 24px;
-      font-family: GothamBook;
       width: 480px;
       font-size: 16px;
       text-align: center; }
     .main-header .middle-header a {
-      font-family: GothamMedium;
+      font-weight: 500;
       margin-top: 130px;
       font-size: 14px;
       color: white;
@@ -134,11 +181,10 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
       padding-bottom: 5px; }
 
 .timeline {
-  font-family: GothamBook;
   background-color: #252528;
   position: relative;
   line-height: 22px;
-  padding-bottom: 350px; }
+  min-height: 500px; }
   .timeline .timeline-graph {
     height: 300px;
     background-image: url("../img/timeline/timeline.png");
@@ -185,8 +231,18 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
 
 .analytics {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 1000px;
   background-color: #252528;
@@ -195,14 +251,13 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
   background-repeat: no-repeat;
   background-position: 50% 200px; }
   .analytics p {
-    font-family: GothamBook;
     color: #cdcdd8;
     font-size: 12px; }
   .analytics h2 {
     margin-top: 10px;
     text-align: center;
     letter-spacing: 2px;
-    font-family: GothamThin;
+    font-weight: 300;
     color: #22ddbc;
     font-size: 40px; }
   .analytics h2 + p {
@@ -211,7 +266,6 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
     text-align: center;
     line-height: 24px; }
   .analytics .dropbtn {
-    font-family: "GothamBook";
     background-color: transparent;
     color: #b8bbc4;
     border-radius: 10px;
@@ -229,6 +283,8 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
       border-bottom: 1px solid #b8bbc4;
       border-right: 1px solid #b8bbc4;
       padding: 3px;
+      -webkit-transform: translate(5px, 4px) rotate(45deg);
+      -ms-transform: translate(5px, 4px) rotate(45deg);
       transform: translate(5px, 4px) rotate(45deg); }
   .analytics .dropdown-content {
     display: none;
@@ -253,23 +309,37 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
     .analytics .dropbtn:after {
       margin-left: 25px;
       border-color: #66666b; }
-  .analytics .dropdown-content a {
-    font-family: GothamBook; }
   .analytics .more-info {
-    font-family: GothamLight;
+    font-weight: 300;
     position: absolute;
     top: 90%;
     left: 15%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 70%; }
     .analytics .more-info p {
+      -webkit-box-flex: 2;
+      -webkit-flex-grow: 2;
+      -ms-flex-positive: 2;
       flex-grow: 2;
       color: #b8bbc4;
       font-size: 18px;
       line-height: 40px; }
     .analytics .more-info .info-items {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column;
       margin-left: 50px;
       padding-left: 40px;
@@ -287,23 +357,41 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
           color: white; }
 
 .overview {
-  font-family: RobotoLight;
   height: 100vh;
+  min-height: 700px;
   color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: 60%;
   margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center; }
   .overview .complain {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     height: 60%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column; }
     .overview .complain .complain-title {
       position: relative;
-      font-family: GothamBook;
       color: #bf17a0;
       font-size: 12px;
       line-height: 24px;
@@ -317,19 +405,28 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
         border-bottom: 2px solid #bf17a0; }
     .overview .complain h2 {
       position: relative;
-      font-family: GothamLight;
+      font-weight: 300;
       font-size: 48px;
       line-height: 56px;
       color: black; }
     .overview .complain .complain-main {
       color: #6a6c74;
+      font-weight: 300;
       font-size: 14px;
       line-height: 24px;
       width: 350px; }
   .overview .specs {
-    font-family: GothamBook;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     height: 40%;
     color: #646262;
@@ -356,24 +453,32 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
 .diaggraph {
   position: relative;
   height: 100vh;
+  min-height: 800px;
   background-color: #f1f2f6;
   background-image: url("../img/diaggraph/points.png"), url("../img/diaggraph/graph.png");
   background-size: 80%, 80%;
   background-position: 120% 80%, 50% 10%;
-  background-repeat: no-repeat;
-  font-family: GothamBook; }
+  background-repeat: no-repeat; }
   .diaggraph .graph-display {
     position: absolute;
     top: 10%;
     left: 5%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 300px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center; }
     .diaggraph .graph-display p {
       margin-right: 20px; }
   .diaggraph .dropbtn {
-    font-family: "GothamBook";
     background-color: transparent;
     color: #b8bbc4;
     border-radius: 10px;
@@ -391,6 +496,8 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
       border-bottom: 1px solid #b8bbc4;
       border-right: 1px solid #b8bbc4;
       padding: 3px;
+      -webkit-transform: translate(5px, 4px) rotate(45deg);
+      -ms-transform: translate(5px, 4px) rotate(45deg);
       transform: translate(5px, 4px) rotate(45deg); }
   .diaggraph .dropdown-content {
     display: none;
@@ -426,47 +533,78 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
 
 .press {
   height: 100vh;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
   .press .press-container {
     height: 700px;
     width: 85%;
     margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between; }
     .press .press-container .press-about {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       height: 40%; }
       .press .press-container .press-about p {
-        font-family: GothamMedium;
+        font-weight: 500;
         font-size: 10px;
         line-height: 24px;
         color: #acadb0; }
       .press .press-container .press-about h2 {
-        font-family: GothamLight;
+        font-weight: 300;
         font-size: 48px;
         line-height: 56px;
         color: black;
         width: 40%; }
   .press .press-news {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     height: 50%; }
     .press .press-news .press-news-items {
-      background-image: url("../img/press/date-feb.png");
-      background-repeat: no-repeat;
-      background-size: 12%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column;
       position: relative;
-      font-family: GothamLight;
-      width: 33%; }
+      font-weight: 300;
+      width: 33.3%; }
       .press .press-news .press-news-items h3, .press .press-news .press-news-items p {
         line-height: 24px;
-        width: 70%;
-        margin: 0 auto; }
+        width: 80%; }
       .press .press-news .press-news-items h3 {
+        font-weight: 300;
         font-size: 18px;
         color: #d172bc;
         margin-bottom: 40px; }
@@ -475,29 +613,80 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
       .press .press-news .press-news-items a {
         position: absolute;
         bottom: 10%;
-        left: 15%;
+        left: 0;
         border: 1px solid #d3d5da;
         padding: 15px;
         border-radius: 10px;
         color: #d172bc;
         text-decoration: none;
+        -webkit-transition: 0.5s ease;
+        -o-transition: 0.5s ease;
         transition: 0.5s ease; }
         .press .press-news .press-news-items a:hover {
           border-color: #6a6c74; }
+      .press .press-news .press-news-items .calendar-block {
+        position: absolute;
+        left: -60px;
+        height: 50px;
+        width: 40px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border: 1px solid #d3d5da;
+        border-bottom: 3px solid #d172bc; }
+        .press .press-news .press-news-items .calendar-block h4 {
+          font-weight: 500; }
+        .press .press-news .press-news-items .calendar-block span {
+          font-size: 10px;
+          color: #d3d5da;
+          font-weight: 700; }
 
 .footer {
   background-color: #f1f2f6;
   height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
-  align-items: center;
-  /* justify-content: space-between; */ }
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
   .footer .footer-list {
-    font-family: GothamLight;
+    min-height: 300px;
+    font-weight: 300;
     height: 70%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 80%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding-top: 30px; }
     .footer .footer-list ul {
@@ -509,27 +698,44 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
     .footer .footer-list h4 {
       position: relative;
       margin-bottom: 30px;
-      font-size: 16px;
-      font-family: GothamBold; }
+      font-size: 14px;
+      font-weight: 500; }
   .footer .footer-copyright {
-    font-family: GothamBook;
     font-size: 13px;
     border-top: 2px solid #e6e7ec;
     height: 30%;
     width: 80%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     color: #55565a; }
     .footer .footer-copyright .logo span {
       font-size: 19px;
-      font-family: GothamBold;
+      font-weight: 900;
       color: #bf17a0;
       border: 2px solid #8c8d93;
       padding: 5px; }
     .footer .footer-copyright .terms {
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
       justify-content: space-between;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
       align-items: center;
       width: 35%;
       position: relative; }
@@ -546,13 +752,9 @@ div, p, body, button, h1, h2, img, hr, li, ul, span {
           padding: 6px;
           left: 16px;
           top: 20px;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
           transform: rotate(45deg); }
-  .footer .pink:before {
-    position: absolute;
-    content: "";
-    border-bottom: 3px solid #bf17a0;
-    padding: 5px;
-    padding: 10px; }
 
 .active {
   color: white !important;

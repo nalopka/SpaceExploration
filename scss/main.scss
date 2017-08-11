@@ -1,42 +1,18 @@
-div, p, body, button, h2, h3, img, hr, li, ul, span, section {
+div, p, body, button, h1, h2, h3, h4, img, hr, li, ul, span, section {
 	margin: 0;
 	padding: 0;
 }
 body {
 	min-width: 1300px;
+	font-family: GothamBook, sans-serif;
+	line-height: 1.4;
 }
 p, h1, h2, h3, span {
 	cursor: default;
 }
-@font-face {
-	font-family: GothamBold;
-	src: url("../fonts/Gotham/GothamHTF-Bold.otf");
-}
-@font-face {
-	font-family: GothamBook;
-	src: url("../fonts/Gotham/GothamHTF-Book.otf");
-}
-@font-face {
-	font-family: GothamBlack;
-	src: url("../fonts/Gotham/GothamHTF-Black.otf");
-}
-@font-face {
-	font-family: GothamMedium;
-	src: url("../fonts/Gotham/GothamHTF-Medium.otf");
-}
-@font-face {
-	font-family: GothamThin;
-	src: url("../fonts/Gotham/GothamHTF-Thin.otf");
-}
-@font-face {
-	font-family: GothamLight;
-	src: url("../fonts/Gotham/GothamHTF-Light.otf");
-}
-
-@font-face {
-	font-family: RobotoLight;
-	src: url("../fonts/Roboto/Roboto-Light.ttf");
-}
+@import "UI/color";
+@import "UI/fonts";
+@import "main-style";
 
 @import "headerItems/header";
 @import "timeline/timeline";

@@ -1,6 +1,6 @@
 .overview {
-	font-family: RobotoLight;
 	height: 100vh;
+	min-height: 700px;
 	color: white;
 	display: flex;
 	width: 60%;
@@ -16,8 +16,7 @@
 		flex-direction: column;
 		.complain-title {
 			position: relative;
-			font-family: GothamBook;
-			color: #bf17a0;
+			color: $pink;
 			font-size: 12px;
 			line-height: 24px;
 			padding-top: 50px;
@@ -27,27 +26,23 @@
 				padding-left: 25px;
 				left: 40%;
 				bottom: 0;
-				border-bottom: 2px solid #bf17a0;
-			}
+				border-bottom: 2px solid $pink;}
 		}
 		h2 {
 			position: relative;
-			font-family: GothamLight;
+			font-weight: 300;
 			font-size: 48px;
 			line-height: 56px;
-			color: black;
+			color: black;}
 			
-		}
 		.complain-main {
 			color: #6a6c74;
+			font-weight: 300;
 			font-size: 14px;
 			line-height: 24px;
-			width: 350px;
-
-		}
+			width: 350px;}
 	}
 	.specs {
-		font-family: GothamBook;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -68,13 +63,9 @@
 			p {
 				position: absolute;
 				top: 22px;
-				left: 20%;
-				
-			}
+				left: 20%;}
 		}
 		.specs-items2 {
-			background-image: url("../img/overview/specs-right.png");
-		
-		}
+			background-image: url("../img/overview/specs-right.png");}
 	}
 }

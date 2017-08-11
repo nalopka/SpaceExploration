@@ -1,11 +1,11 @@
-$light-green: #22ddbc;
+
 div, p, body, button, h1, h2, img, hr, li, ul, span {
 	margin: 0;
 	padding: 0;
 }
 .main-header {
 	color: white;
-	background-color: #252528;
+	background-color: $bg-color;
 	background-image: url("../img/headerItems/bg.png");
 	background-position: center;
 	background-size: 100%;

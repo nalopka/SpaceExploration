@@ -2,42 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<script src="js/headerItems/dropbtn.js"></script> <!-- Выподающее меню в навигации -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="js/smoothscroll/smoothscroll.js"></script> <!-- smoothscroll -->
 	<link rel="stylesheet" href="css/main.css">
-	<!-- <meta name="viewport" content="width"> -->
 	<title>Space Exploration</title>
 </head>
 <body>
 	<section class="main-header" id="Home">
-			<div class="top-header">
-				<div class="logo"><span>SP</span> SpacePlatforms</div>
-				<nav>
-					<div class="menu-header">
-						<ul>
-							<li><a href="#home" class="active">Home</a></li>
-							<li><a href="#Mission">Mission</a></li>
-							<li><a href="#Research">Research</a></li>
-							<li><a href="#Explorers">Explorers</a></li>
-							<li><a href="#Our-philosophy">Our philosophy</a></li>
-						</ul>
+		<div class="top-header">
+			<div class="logo"><span>SP</span> SpacePlatforms</div>
+			<nav>
+				<div class="menu-header">
+					<ul>
+						<li><a href="#home" class="active">Home</a></li>
+						<li><a href="#Mission">Mission</a></li>
+						<li><a href="#Research">Research</a></li>
+						<li><a href="#Explorers">Explorers</a></li>
+						<li><a href="#Our-philosophy">Our philosophy</a></li>
+					</ul>
+				</div>
+					<div class="dropdown">
+	  					<button onclick="myFunction()" class="dropbtn">Explore SP</button>
+	 						<div id="myDropdown" class="dropdown-content">
+							    <a href="#">Link 1</a>
+							    <a href="#">Link 2</a>
+							    <a href="#">Link 3</a>
+							</div>
 					</div>
-						<div class="dropdown">
-		  					<button onclick="myFunction()" class="dropbtn">Explore SP</button>
-		 						<div id="myDropdown" class="dropdown-content">
-								    <a href="#">Link 1</a>
-								    <a href="#">Link 2</a>
-								    <a href="#">Link 3</a>
-								</div>
-						</div>
-				</nav>
-			</div>
-			<div class="middle-header">
-				<h1>SPACE EXPLORATION</h1>
-				<p>Space exploration is the ongoing discovery and exploration of celestial structures in outer space</p>
-				<a href="#Mission" id="Mission">START EXPLORING</a>
-			</div>
+			</nav>
+		</div>
+		<div class="middle-header">
+			<h1>SPACE EXPLORATION</h1>
+			<p>Space exploration is the ongoing discovery and exploration of celestial structures in outer space</p>
+			<a href="#Mission" id="Mission">START EXPLORING</a>
+		</div>
 	</section>
 
 	<section class="timeline" >
@@ -130,17 +127,29 @@
 			</div>
 			<div class="press-news">
 				<div class="press-news-items">
+					<div class="calendar-block">
+						<h4>04</h4>
+						<span>FEB</span>
+					</div>
 					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, iste. Lorem ipsum dolor sit amet.</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quidem eligendi neque fugiat repellendus sequ.</p>
 					<a href="#">Read More</a>
 				</div>
 				<div class="press-news-items">
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quidem eligendi neque fugiat repellendus sequ. Lorem ipsum dolor.</p>
+					<div class="calendar-block">
+						<h4>23</h4>
+						<span>JAN</span>
+					</div>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, iste. Lorem ipsum dolor sit amet.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quidem eligendi neque fugiat repellendus sequ.</p>
 					<a href="#">Read More</a>
 				</div>
 				<div class="press-news-items">
-					<h3>Lorem ipsum dolorem ipsum dolor sit amet.</h3>
+					<div class="calendar-block">
+						<h4>10</h4>
+						<span>SEP</span>
+					</div>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, iste. Lorem ipsum dolor sit amet.</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quidem eligendi neque fugiat repellendus sequ.</p>
 					<a href="#">Read More</a>
 				</div>
@@ -206,5 +215,7 @@
 			</div>
 		</div>
 	</section>
+	<script src="script/headerItems/dropbtn.js"></script> 
+	<script src="script/smoothscroll/smoothscroll.js"></script>
 </body>
 </html>

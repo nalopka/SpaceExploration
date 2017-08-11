@@ -1,6 +1,7 @@
 .diaggraph {
 	position: relative;
 	height: 100vh;
+	min-height: 800px;
 	background-color: #f1f2f6;
 	background-image: 
 		url("../img/diaggraph/points.png"),
@@ -8,7 +9,6 @@
 	background-size: 80%, 80%;
 	background-position: 120% 80%, 50% 10%;
 	background-repeat: no-repeat;
-	font-family: GothamBook;
 	.graph-display {
 		position: absolute;
 		top: 10%;
@@ -17,9 +17,7 @@
 		align-items: center;
 		width: 300px;
 		justify-content: center;
-		p {
-			margin-right: 20px;
-		}
+		p { margin-right: 20px;}
 	}
 	@import "headerItems/dropbtn";
 	.dropbtn {
@@ -34,11 +32,9 @@
 		&:after {border-color: #a2a1a3;}
 	}
 	.dropdown-content {
-			a {
-				color: #a2a1a3;
-				&:hover {
-					color: black;
-				}
-			}
+		a {
+			color: #a2a1a3;
+			&:hover { color: black;}
 		}
+	}
 }

@@ -1,13 +1,13 @@
 .footer {
 	background-color: #f1f2f6;
 	height: 50vh;
+
 	display: flex;
-	// justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	/* justify-content: space-between; */
 	.footer-list {
-		font-family: GothamLight;
+		min-height: 300px;
+		font-weight: 300;
 		height: 70%;
 		display: flex;
 		justify-content: center;
@@ -19,18 +19,15 @@
 			li {
 				width: 200px;
 				line-height: 32px;
-				font-size: 13px;
-			}
+				font-size: 13px;}
 		}
 		h4 {
 			position: relative;
 			margin-bottom: 30px;
-			font-size: 16px;
-			font-family: GothamBold;
-		}
+			font-size: 14px;
+			font-weight: 500;}
 	}
 	.footer-copyright {
-		font-family: GothamBook;
 		font-size: 13px;
 		border-top: 2px solid #e6e7ec;
 		height: 30%;
@@ -40,14 +37,12 @@
 		justify-content: space-between;	
 		color: #55565a;
 		.logo { 
-
-				span {
-					font-size: 19px;
-					font-family: GothamBold;
-					color: #bf17a0;
-					border: 2px solid #8c8d93;
-					padding: 5px;
-				}
+			span {
+				font-size: 19px;
+				font-weight: 900;
+				color: #bf17a0;
+				border: 2px solid #8c8d93;
+				padding: 5px;}
 		}
 		.terms {
 			justify-content: space-between;
@@ -68,18 +63,8 @@
 					padding: 6px;
 					left: 16px;
 					top: 20px;
-					transform: rotate(45deg);
-				}
+					transform: rotate(45deg);}
 			}
-		}
-	}
-	.pink {
-		&:before {
-			position: absolute;
-			content: "";
-			border-bottom: 3px solid #bf17a0;
-			padding: 5px;
-			padding: 10px;
 		}
 	}
 }

@@ -1,0 +1,9 @@
+.pink {
+	&:before {
+		position: absolute;
+		content: "";
+		border-bottom: 3px solid #bf17a0;
+		padding: 5px;
+		padding: 10px;
+	}
+}
